@@ -1,0 +1,38 @@
+<!-----Formulario----->
+<form action ="/crear-producto" method="post" class="create-form"> 
+    <div class="control-formulario">
+        <label>Nombre del producto:</label>
+        <input type="text" name="nombre" class="control">
+    </div>
+    <div class="control-formulario">
+        <label>Precio:</label>
+        <input type="text" name="precio" placeholder="123.444" class="control" >
+    </div>
+    <div class="control-formulario">
+        <label>Categoria:</label>
+        <select name="categoria" class="control">
+            <option value="hogar">Hogar</option>
+            <option value="electro">Electrodomesticos</option>
+            <option value="indumentaria">Indumentaria</option>
+        </select>
+    </div>
+    <div class="control-formulario">
+        <label>Ciudad:</label>
+        <select name="ciudad" class="control">
+            <option value="jujuy">Jujuy</option>
+            <option value="salta">Salta</option>
+            <option value="mdz">Mendoza</option>
+        </select>
+    </div>
+    <div class="control-formulario">
+        <label>Descripcion:</label>
+        <textarea name="descripcion" class="control" ></textarea>
+    </div>
+    <div class="control-formulario">
+     <label> Esta en oferta:</label>
+     <input type="radio" name="enOferta">
+    </div>
+    <button type="reset" class="boton-formulario-reset">Borrar </button>
+    <button type="submit" class="boton-formulario-sumit">Guardar</button>
+    
+</form>
